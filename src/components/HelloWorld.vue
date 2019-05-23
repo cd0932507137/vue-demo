@@ -4,10 +4,10 @@
     <div class="container">
       <div class="row pt-5">
         <div class="jumbotron">
-          <h1 class="display-4">{{ msg }}</h1>
-          <p class="lead">{{ title }}</p>
+          <h1 class="display-4">{{$tc('msg')}}</h1>
+          <p class="lead">{{$tc('title')}}</p>
           <hr class="my-4">
-          <p>{{ text }}</p>
+          <p>{{$tc('text')}}</p>
         </div>
       </div>
     </div>
@@ -18,13 +18,6 @@
 import NavComponent from './Nav'
 export default {
   name: 'HelloWorld',
-  data () {
-    return {
-      msg: 'Welcome to Your Vue.js App',
-      title: 'This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.',
-      text: 'It uses utility classes for typography and spacing to space content out within the larger container.'
-    }
-  },
   components: {
     NavComponent
   }

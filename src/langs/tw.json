@@ -1,0 +1,13 @@
+{
+    "navTitle": "Vue的demo",
+    "msg": "歡迎來到你的 Vue.js App",
+    "title": "這是一個簡單的英雄單元，一個簡單的jumbotron風格組件，用於調用對特色內容或信息的額外關注。",
+    "text": "它使用實用程序類進行排版，並在較大的容器中使用空格內容。",
+    "welcome": "歡迎光臨",
+    "home": "首頁",
+    "table": "表格",
+    "search": "搜尋",
+    "picture": "大頭照",
+    "name": "姓名",
+    "email": "電子郵件"
+}
