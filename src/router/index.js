@@ -17,6 +17,10 @@ export default new Router({
       path: '/table',
       name: 'Table',
       component: Table
+    },
+    {
+      path: '/*',
+      redirect: '/'
     }
   ]
 })
