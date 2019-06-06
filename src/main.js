@@ -6,9 +6,14 @@ import VueAxios from 'vue-axios'
 import App from './App'
 import router from './router'
 import { i18n } from './plugins/i18'
+import VCharts from 'v-charts'
+// 折线图
+import VeLine from 'v-charts/lib/line.common'
 
-Vue.use(VueAxios, axios)
+Vue.use(VueAxios, axios, VCharts)
 Vue.config.productionTip = false
+// 折线图
+Vue.component(VeLine.name, VeLine)
 
 /* eslint-disable no-new */
 new Vue({

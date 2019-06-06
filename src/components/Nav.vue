@@ -21,6 +21,9 @@
         <li class="nav-item">
           <router-link class="nav-link" to="/table">{{$tc('table')}}</router-link>
         </li>
+        <li class="nav-item">
+          <router-link class="nav-link" to="/chart">{{$tc('chart')}}</router-link>
+        </li>
       </ul>
       <div>
         <a href="#" @click="setLocale('en')">
