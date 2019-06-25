@@ -9,16 +9,19 @@
             <th scope="col">{{$tc('picture')}}</th>
             <th scope="col">{{$tc('name')}}</th>
             <th scope="col">{{$tc('email')}}</th>
+            <th scope="col">{{$tc('gender')}}</th>
           </tr>
         </thead>
         <tbody>
-          <tr v-for="item, i) in tableData">
+          <tr v-for="(item, i) in tableData">
             <th scope="row">{{ i+1 }}</th>
             <td>
               <img :src="item.picture.medium" class="img-thumbnail">
             </td>
             <td>{{ item.name.first }}{{ item.name.last }}</td>
             <td>{{ item.email }}</td>
+            <td v-if="item.gender === 'female'">{{$tc('female')}}</td>
+            <td v-else>{{$tc('male')}}</td>
           </tr>
         </tbody>
       </table>

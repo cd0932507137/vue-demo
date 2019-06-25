@@ -10,5 +10,8 @@
     "search": "Search",
     "picture": "Picture",
     "name": "Name",
-    "email": "Email"
+    "email": "Email",
+    "gender": "Gender",
+    "female": "Female",
+    "male": "Male"
 }

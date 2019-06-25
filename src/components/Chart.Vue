@@ -20,7 +20,7 @@ export default {
   components: {
     NavComponent
   },
-  data() {
+  data () {
     this.gaugeSettings = {
       dimension: 'type',
       metrics: 'value'

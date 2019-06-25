@@ -10,5 +10,8 @@
     "search": "搜尋",
     "picture": "大頭照",
     "name": "姓名",
-    "email": "電子郵件"
+    "email": "電子郵件",
+    "gender": "性別",
+    "female": "女",
+    "male": "男"
 }
