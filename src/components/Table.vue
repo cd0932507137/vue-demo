@@ -13,7 +13,7 @@
           </tr>
         </thead>
         <tbody>
-          <tr v-for="(item, i) in tableData">
+          <tr v-for="(item, i) in tableData" :key="item.id">
             <th scope="row">{{ i+1 }}</th>
             <td>
               <img :src="item.picture.medium" class="img-thumbnail">

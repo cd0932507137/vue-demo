@@ -30,7 +30,7 @@ export default {
       metrics: 'value'
     }
     this.typeArr = ['line', 'histogram', 'pie']
-      this.index = 0
+    this.index = 0
     return {
       lineData: {
         columns: ['日期', '訪問用戶', '下單用戶'],
